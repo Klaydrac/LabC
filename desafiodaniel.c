@@ -30,7 +30,7 @@ int main() {
     //operações escolhidas pelo usuário:
     switch (op) {
       case 1:
-        //Ocupar armário
+
        printf("\n");
         if(controle == 0xFF) {
           //Mascara onde o valor binário é completamente 1, Se a chave de controle for completa, ou seja, todos armários ocupados. O sistema irá alertar.
