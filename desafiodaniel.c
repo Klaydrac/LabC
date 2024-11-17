@@ -19,7 +19,7 @@ int main() {
     printf("Situação atual dos armários: \n");
       for (int i = 0; i < TAM; i++) 
       {
-        //checa se o armário na posição i está ocupado, se sim retorna 1, se não retorna 0
+        //checa se o armario na posicao i está ocupado, se sim retorna 1, se não retorna 0
         printf("%d ", (controle & (1 << i)) ? 1 : 0);
       }
     printf("\n");
